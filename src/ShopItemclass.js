@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './ShopItemclass.css';
 
 const item = {
   brand: 'Tiger of Sweden',
@@ -11,7 +10,7 @@ const item = {
   currency: '£'
 }
 
-class App extends React.Component {
+class ShopItemclass extends React.Component {
   render() {
     return (
       <div className="container">
@@ -40,4 +39,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default ShopItemclass;
